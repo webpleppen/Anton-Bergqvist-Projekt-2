@@ -1,0 +1,97 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+
+.clickCounter {
+  text-align: center;
+  grid-column: 1;
+  font-family: "khula";
+  font-size: 50px;
+}
+
+.clicker {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  overflow: hidden;
+  margin: 0 auto;
+  grid-column: 1;
+}
+
+.clicker:active {
+  transform: scale(0.97);
+}
+
+.title {
+  font-size: larger;
+  font-family: "khula";
+}
+.upp {
+  display: flex;
+  grid-row: 2;
+  grid-column: 2;
+  font-family: "khula";
+  justify-content: center;
+}
+
+.upgradeButtons {
+  grid-column: 2;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-around;
+  border: black solid 2px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.adder {
+  display: block;
+  width: 30%;
+  height: 30%;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: black;
+}
+
+.adder:active {
+  transform: scale(0.99);
+}
+
+.upgrade2x {
+  display: block;
+  width: 30%;
+  height: 30%;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: black;
+}
+
+.upgrade2x:active {
+  transform: scale(0.99);
+}
+
+.smallUpgrade {
+  display: block;
+  width: 30%;
+  height: 30%;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: black;
+}
+
+.smallUpgrade:active {
+  transform: scale(0.99);
+}
+
+body {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
